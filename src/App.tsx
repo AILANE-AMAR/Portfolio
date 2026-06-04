@@ -1,7 +1,11 @@
+import Navbar from "./Components/Navbar";
+import Project from "./Components/Project";
+
 export default function App() {
   return (
-    <main>
-      <h1>Mon Portfolio</h1>
-    </main>
+    <div>
+      <Navbar />
+      <Project />
+    </div>
   );
 }
