@@ -26,13 +26,14 @@ export interface ExperienceEntry {
   period: string;
   location: string;
   description: string;
-  achievements: string[];
+  achievements?: string[];
   tags: string[];
 }
 
 export interface SkillCategory {
   id: string;
   title: string;
+  icon : string ;
   items: string[];
 }
 
