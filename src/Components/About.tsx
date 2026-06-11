@@ -97,22 +97,14 @@ const About = () => {
         {/* RIGHT — DECORATIVE CARD */}
         <div className="relative flex justify-center">
           <div className="relative w-72 h-72">
-            {/* Outer ring */}
-            <div className="absolute inset-0 rounded-full border-2 border-primary/20 animate-[spin_20s_linear_infinite]">
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-primary" />
-            </div>
             {/* Inner card */}
-            <div className="absolute inset-8 rounded-3xl bg-base-200 border border-base-300 flex items-center justify-center shadow-xl">
-              <div className="text-center p-6">
-                <div className="text-5xl mb-3" style={{ fontFamily: "var(--font-display)" }}>AA</div>
-                <div className="text-xs opacity-50 tracking-widest uppercase">Développeur</div>
-                <div className="text-xs opacity-50 tracking-widest uppercase">Full Stack</div>
-              </div>
-            </div>
-            {/* Floating badges */}
-            <div className="absolute -top-2 -right-4 badge badge-primary shadow-md text-xs">React</div>
-            <div className="absolute top-1/2 -right-8 badge badge-secondary shadow-md text-xs">Python</div>
-            <div className="absolute -bottom-2 -right-4 badge badge-accent shadow-md text-xs">Java</div>
+                <div className="absolute inset-8 rounded-full overflow-hidden border-4 border-base-100 shadow-xl">
+                  <img
+                    src="/Image1.jpg"
+                    alt="Ma photo"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
           </div>
         </div>
 

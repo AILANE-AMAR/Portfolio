@@ -83,7 +83,7 @@ export default function Contact() {
               className="btn btn-outline btn-sm rounded-full gap-2 hover:btn-primary transition-all">
               <GithubIcon size={15} /> GitHub
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer"
+            <a href="https://linkedin.com/in/amar-ailane" target="_blank" rel="noreferrer"
               className="btn btn-outline btn-sm rounded-full gap-2 hover:btn-primary transition-all">
               <LinkedinIcon size={15} /> LinkedIn
             </a>
