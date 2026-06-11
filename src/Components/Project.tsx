@@ -84,7 +84,7 @@ export default function Projects() {
   return (
     <section id="work" className="py-20 px-6 max-w-6xl mx-auto">
       <div className="mb-10">
-        <p className="text-sm opacity-50 tracking-widest uppercase">/02 — Selected Work</p>
+        <p className="text-sm opacity-50 tracking-widest uppercase  ">/02 — Selected Work</p>
         <h2 className="text-4xl font-bold mt-1" style={{ fontFamily: "var(--font-display)" }}>
           Mes <span className="text-primary italic">Projets</span>
         </h2>
