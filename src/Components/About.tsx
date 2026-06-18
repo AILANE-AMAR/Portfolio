@@ -50,8 +50,9 @@ const About = () => {
           </h1>
 
           <p className="text-lg opacity-70 leading-relaxed mb-4">
-            Étudiant en <strong>L3 Informatique</strong> à l'Université Claude Bernard Lyon 1, je cherche un
-            stage en développement de <strong>3 à 4 mois</strong> à partir de fin avril.
+          Étudiant en M1 Informatique à Lyon 1, passionné par la data et le développement logiciel. Je recherche une alternance 
+          de <strong>2 ans à partir de septembre 2026 </strong> pour mettre en pratique mes compétences et progresser dans un environnement 
+           professionnel stimulant.
           </p>
 
           <p className="text-base opacity-60 leading-relaxed mb-8">
@@ -62,7 +63,7 @@ const About = () => {
 
           {/* BADGES */}
           <div className="flex flex-wrap gap-2 mb-8">
-            {["Lyon, France", "Disponible dès avril", "Stage 3–4 mois"].map((b) => (
+            {["Lyon, France", "Disponible dès septembre ", "Alternance 2 ans "].map((b) => (
               <span key={b} className="badge badge-primary badge-outline px-3 py-2 text-xs font-medium">
                 {b}
               </span>

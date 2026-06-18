@@ -13,7 +13,7 @@ export const projets: Project[] = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/your-repo/bitcoin-analysis",
+        url: "https://forge.univ-lyon1.fr/p2207452/lifpro",
         type: "github",
       },
     ],
@@ -31,7 +31,7 @@ export const projets: Project[] = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/your-repo/store-management",
+        url: "https://github.com/AILANE-AMAR/Super-Market-Management-System",
         type: "github",
       },
     ],
@@ -49,7 +49,7 @@ export const projets: Project[] = [
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/your-repo/monitoring-system",
+        url: "https://github.com/AILANE-AMAR/Monitoring",
         type: "github",
       },
     ],
@@ -84,9 +84,9 @@ export const projets: Project[] = [
     category: "simulation",
     links: [
       {
-        label: "GitHub",
-        url: "https://github.com/your-repo/small-world-java",
-        type: "github",
+         label: "GitHub",
+         url : "https://github.com/Doubasz/small-worlds-L3",   
+         type: "github",
       },
     ],
   },
