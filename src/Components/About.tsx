@@ -50,17 +50,16 @@ const About = () => {
           </h1>
 
           <p className="text-lg opacity-70 leading-relaxed mb-4">
-          Étudiant en M1 Informatique à Lyon 1, passionné par la data et le développement logiciel. Je recherche une alternance 
-          de <strong>2 ans à partir de septembre 2026 </strong> pour mettre en pratique mes compétences et progresser dans un environnement 
-           professionnel stimulant.
+            Étudiant en M1 Informatique à Lyon 1, passionné par la data,
+            l'intelligence artificielle et le développement logiciel. Je recherche une alternance de
+            <strong>2 ans à partir de septembre 2026</strong>.
           </p>
 
           <p className="text-base opacity-60 leading-relaxed mb-8">
-            Curieux et rigoureux, j'aime construire des projets concrets — des outils de monitoring aux
-            analyses Big Data, en passant par des applications web full-stack. Je parle kabyle (langue
-            maternelle), français et anglais courant.
+            Curieux et rigoureux, j'aime développer des applications, analyser des données
+            et apprendre de nouvelles technologies. Mon parcours m'a permis d'acquérir des compétences en Python,
+            en IA et en développement logiciel à travers des projets concrets et un stage de recherche.
           </p>
-
           {/* BADGES */}
           <div className="flex flex-wrap gap-2 mb-8">
             {["Lyon, France", "Disponible dès septembre ", "Alternance 2 ans "].map((b) => (
@@ -99,13 +98,13 @@ const About = () => {
         <div className="relative flex justify-center">
           <div className="relative w-72 h-72">
             {/* Inner card */}
-                <div className="absolute inset-8 rounded-full overflow-hidden border-4 border-base-100 shadow-xl">
-                  <img
-                    src="/Image1.jpg"
-                    alt="Ma photo"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+            <div className="absolute inset-8 rounded-full overflow-hidden border-4 border-base-100 shadow-xl">
+              <img
+                src="/Image1.jpg"
+                alt="Ma photo"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
 

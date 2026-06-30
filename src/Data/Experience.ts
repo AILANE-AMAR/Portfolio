@@ -2,6 +2,22 @@ import type { ExperienceEntry } from '../Types';
 
 export const experiences: ExperienceEntry[] = [
   {
+    id: "liris",
+    title: "Research Intern – Deep Learning",
+    company: "LIRIS – Université Claude Bernard Lyon 1",
+    period: "Juin 2026 — Août 2026",
+    location: "Lyon, France",
+    description:
+      "Développement d'un pipeline d'analyse d'images histopathologiques avec Python et PyTorch. Implémentation de modèles de Deep Learning (Vision Transformer, ABMIL) pour la prédiction de la réponse tumorale et comparaison de modèles de fondation dans un contexte de recherche en IA.",
+    tags: [
+      "Python",
+      "PyTorch",
+      "Deep Learning",
+      "Computer Vision",
+      "Research",
+    ],
+  },
+  {
     id: "asso",
     title: "Trésorier",
     company: "Association des Informaticiens Lyonnais",
