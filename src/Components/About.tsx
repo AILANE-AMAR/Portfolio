@@ -87,7 +87,7 @@ const About = () => {
               className="btn btn-ghost btn-circle btn-sm opacity-60 hover:opacity-100 hover:text-primary transition">
               <GithubIcon size={18} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer"
+            <a href="https://www.linkedin.com/in/amar-ailane/" target="_blank" rel="noreferrer"
               className="btn btn-ghost btn-circle btn-sm opacity-60 hover:opacity-100 hover:text-primary transition">
               <LinkedinIcon size={18} />
             </a>
