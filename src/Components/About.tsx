@@ -52,7 +52,7 @@ const About = () => {
           <p className="text-lg opacity-70 leading-relaxed mb-4">
             Étudiant en M1 Informatique à Lyon 1, passionné par la data,
             l'intelligence artificielle et le développement logiciel. Je recherche une alternance de
-            <strong>2 ans à partir de septembre 2026</strong>.
+            <strong> 12 à 24 mois à partir de septembre 2026</strong>.
           </p>
 
           <p className="text-base opacity-60 leading-relaxed mb-8">
@@ -71,7 +71,7 @@ const About = () => {
 
           {/* ACTIONS */}
           <div className="flex flex-wrap gap-3">
-            <a href="/CV-G.pdf" download className="btn btn-primary rounded-full gap-2">
+            <a href="/CV.pdf" download className="btn btn-primary rounded-full gap-2">
               <Download size={16} />
               Télécharger CV
             </a>

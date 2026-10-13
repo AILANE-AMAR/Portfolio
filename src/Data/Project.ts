@@ -2,6 +2,24 @@ import type { Project } from "../Types";
 
 export const projets: Project[] = [
   {
+    year: "2026",
+    title: "Trésorerie Asso",
+    role: "Full Stack Developer",
+    description:
+      "Application web de gestion de trésorerie pour une association étudiante, conçue à partir des besoins du bureau. Import des relevés bancaires CSV avec anti-doublons, classement des transactions par mandat, compte de résultat automatique et stockage des justificatifs dans Nextcloud (WebDAV). Backend Java 17 / Spring Boot, PostgreSQL avec Flyway, frontend React.",
+    color: "#00bfa5",
+    status: "completed",
+    category: "web",
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/AILANE-AMAR/AML-TRESO/",
+        type: "github",
+      },
+    ],
+  },
+
+  {
     year: "2025",
     title: "Analyse du réseau Bitcoin",
     role: "Big Data Analyst",
@@ -42,7 +60,7 @@ export const projets: Project[] = [
     title: "Monitoring System",
     role: "DevOps",
     description:
-      "Outil de monitoring système (CPU, RAM) développé avec Python et Flask. Automatisation des alertes e-mail et  detection des crises  .",
+      "Outil de monitoring système (CPU, RAM) développé avec Python et Flask. Automatisation des alertes e-mail et détection des crises.",
     color: "#2196F3",
     status: "completed",
     category: "tools",
@@ -84,9 +102,9 @@ export const projets: Project[] = [
     category: "simulation",
     links: [
       {
-         label: "GitHub",
-         url : "https://github.com/Doubasz/small-worlds-L3",   
-         type: "github",
+        label: "GitHub",
+        url: "https://github.com/Doubasz/small-worlds-L3",
+        type: "github",
       },
     ],
   },

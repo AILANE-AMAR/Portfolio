@@ -1,73 +1,93 @@
-# React + TypeScript + Vite
+# Portfolio – Amar AILANE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personnel d'un étudiant en Master Informatique (Lyon 1), développeur full-stack, à la recherche d'une **alternance de 12 à 24 mois** en développement, data et IA appliquée.
 
-Currently, two official plugins are available:
+Le site présente mes projets, mes compétences et mon parcours.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## À propos
 
-## React Compiler
+Étudiant en M1 Informatique à l'Université Claude Bernard Lyon 1, je développe des applications web complètes (API REST, base de données, interface React) pour des besoins métier concrets. Suite à mon stage de recherche en Deep Learning, je m'intéresse à l'IA appliquée : classification, extraction de documents, OCR et automatisations avec validation humaine.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Projets présentés
 
-## Expanding the ESLint configuration
+| Projet | Description | Technologies |
+|---|---|---|
+| **Trésorerie Asso** | Application web de gestion de trésorerie pour une association étudiante (projet réel) | Java, Spring Boot, PostgreSQL, React |
+| **Analyse du réseau Bitcoin** | Analyse de données transactionnelles à grande échelle, modélisation en graphes | PySpark, pandas, NetworkX |
+| **Système de Gestion de Magasin** | Application desktop de gestion de produits, stocks et ventes | JavaFX, PostgreSQL |
+| **Monitoring System** | Supervision CPU / RAM avec alertes e-mail automatisées | Python, Flask |
+| **Elite Cars Rental** | Site de réservation de voitures avec front office et back office | PHP MVC, PostgreSQL |
+| **Small World** | Jeu de société en Java, architecture MVC | Java, Swing |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Compétences
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Web & APIs** : TypeScript, Node.js / Express, Next.js, React, Tailwind CSS, Spring Boot, Flask, APIs REST
+- **Données** : PostgreSQL, Prisma, MySQL, modélisation relationnelle, SQL d'agrégation
+- **IA & automatisation** : OCR et extraction de documents, classification par LLM avec validation humaine, RAG, n8n, PyTorch
+- **Intégrations** : Microsoft Graph (Outlook, SharePoint / OneDrive), SSO / OAuth, webhooks
+- **Qualité & exploitation** : Git (branches, pull requests, revues), tests automatisés, Docker, Linux, Bash, sauvegardes, supervision
+- **Langages** : TypeScript, JavaScript, Java, Python, SQL, C / C++
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Expérience
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Stage de recherche – Deep Learning pour la prédiction en oncologie** (juin – août 2026), LIRIS, Université Lyon 1 : pipeline de traitement d'images histopathologiques, Vision Transformers et Multiple Instance Learning.
+- **Trésorier de l'Association des informaticiens lyonnais** (depuis octobre 2025) : budget, coordination du bureau, outil de trésorerie.
+
+## Formation
+
+- Master Informatique (M1 en cours), Université Claude Bernard Lyon 1, 2026 – 2028
+- L3 Informatique, Université Claude Bernard Lyon 1, 2025 – 2026
+- L2 Informatique, Université d'Avignon, 2024 – 2025
+
+## Stack du portfolio
+
+- [React](https://react.dev/) et [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vite.dev/) pour le bundling et le serveur de développement
+- ESLint pour la qualité du code
+
+Les projets affichés sont décrits dans un fichier de données typé (`Project`), ce qui permet d'en ajouter un simplement : titre, rôle, description, année, catégorie, couleur et liens.
+
+## Lancer le projet
+
+Prérequis : Node.js 18 ou plus.
+
+```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+# Construire la version de production
+npm run build
+
+# Prévisualiser le build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Le site est ensuite accessible sur http://localhost:5173.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Ajouter un projet
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Ajouter un objet dans la liste des projets, en respectant le type `Project` :
+
+```typescript
+{
+  year: "2026",
+  title: "Nom du projet",
+  role: "Mon rôle",
+  description: "Courte description du projet et des technologies utilisées.",
+  color: "#00bfa5",
+  status: "completed",
+  category: "web",
+  links: [
+    { label: "GitHub", url: "https://github.com/...", type: "github" },
+  ],
+}
 ```
+
+## Contact
+
+- Email : ailaneamar8@gmail.com
+- GitHub : [AILANE-AMAR](https://github.com/AILANE-AMAR)
+- Localisation : Lyon
